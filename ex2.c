@@ -1,10 +1,9 @@
-//a program to add two numbers:
+//conditional operator:
 #include<stdio.h>
 main()
 {
-    int a,b,sum;
-    a=5;
-    b=7;
-    sum=a+b;
-    printf("The sum of %d and %d =%d",a,b,sum);
+    int a,b,max;
+    printf("Enter two numbers:\n");
+    scanf("%d%d",&a,&b);
+    max=(a>b)?(printf("Max =%d",a)):(printf("Max =%d",b));
 }

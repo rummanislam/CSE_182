@@ -1,8 +1,11 @@
 #include<stdio.h>
 main()
 {
-    printf("Name: Syed Rumman Islam.\n");
-    printf("ID: 2108019\n");
-    printf("Dept: ETE\n");
-    printf("Address: CUET");
+    int a,b,p,area;
+    printf("Enter length and breadth of the rectangle:");
+    scanf("%d%d",&a,&b);
+    p=2*(a+b);
+    area=a*b;
+    printf("The perimeter=%d unit\nThe area =%d sq.unit",p,area);
+
 }
